@@ -1,0 +1,981 @@
+
+AVRASM ver. 2.2.7  C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm Sun Oct 06 01:18:02 2019
+
+[builtin](2): Including file 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\m328PBdef.inc'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): Including file 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC'
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(47): warning: Preprocessor: Redefinition of macro '__PART_NAME__'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(49): error: Invalid redefinition of 'SIGNATURE_000'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(50): error: Invalid redefinition of 'SIGNATURE_001'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(51): error: Invalid redefinition of 'SIGNATURE_002'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(60): error: Invalid redefinition of 'UDR0'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(61): error: Invalid redefinition of 'UBRR0L'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(62): error: Invalid redefinition of 'UBRR0H'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(63): error: Invalid redefinition of 'UCSR0C'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(64): error: Invalid redefinition of 'UCSR0B'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(65): error: Invalid redefinition of 'UCSR0A'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(72): error: Invalid redefinition of 'ASSR'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(73): error: Invalid redefinition of 'OCR2B'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(74): error: Invalid redefinition of 'OCR2A'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(75): error: Invalid redefinition of 'TCNT2'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(76): error: Invalid redefinition of 'TCCR2B'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(77): error: Invalid redefinition of 'TCCR2A'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(78): error: Invalid redefinition of 'OCR1BL'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(79): error: Invalid redefinition of 'OCR1BH'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(80): error: Invalid redefinition of 'OCR1AL'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(81): error: Invalid redefinition of 'OCR1AH'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(82): error: Invalid redefinition of 'ICR1L'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(83): error: Invalid redefinition of 'ICR1H'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(84): error: Invalid redefinition of 'TCNT1L'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(85): error: Invalid redefinition of 'TCNT1H'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(86): error: Invalid redefinition of 'TCCR1C'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(87): error: Invalid redefinition of 'TCCR1B'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(88): error: Invalid redefinition of 'TCCR1A'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(89): error: Invalid redefinition of 'DIDR1'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(90): error: Invalid redefinition of 'DIDR0'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(91): error: Invalid redefinition of 'ADMUX'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(92): error: Invalid redefinition of 'ADCSRB'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(93): error: Invalid redefinition of 'ADCSRA'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(94): error: Invalid redefinition of 'ADCH'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(95): error: Invalid redefinition of 'ADCL'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(96): error: Invalid redefinition of 'TIMSK2'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(97): error: Invalid redefinition of 'TIMSK1'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(98): error: Invalid redefinition of 'TIMSK0'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(99): error: Invalid redefinition of 'PCMSK1'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(100): error: Invalid redefinition of 'PCMSK2'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(101): error: Invalid redefinition of 'PCMSK0'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(102): error: Invalid redefinition of 'EICRA'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(103): error: Invalid redefinition of 'PCICR'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(104): error: Invalid redefinition of 'OSCCAL'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(106): error: Invalid redefinition of 'CLKPR'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(107): error: Invalid redefinition of 'WDTCSR'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(108): error: Invalid redefinition of 'SREG'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(109): error: Invalid redefinition of 'SPL'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(110): error: Invalid redefinition of 'SPH'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(111): error: Invalid redefinition of 'SPMCSR'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(112): error: Invalid redefinition of 'MCUCR'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(113): error: Invalid redefinition of 'MCUSR'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(114): error: Invalid redefinition of 'SMCR'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(115): error: Invalid redefinition of 'ACSR'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(119): error: Invalid redefinition of 'GPIOR2'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(120): error: Invalid redefinition of 'GPIOR1'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(121): error: Invalid redefinition of 'OCR0B'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(122): error: Invalid redefinition of 'OCR0A'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(123): error: Invalid redefinition of 'TCNT0'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(124): error: Invalid redefinition of 'TCCR0B'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(125): error: Invalid redefinition of 'TCCR0A'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(126): error: Invalid redefinition of 'GTCCR'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(127): error: Invalid redefinition of 'EEARH'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(128): error: Invalid redefinition of 'EEARL'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(129): error: Invalid redefinition of 'EEDR'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(130): error: Invalid redefinition of 'EECR'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(131): error: Invalid redefinition of 'GPIOR0'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(132): error: Invalid redefinition of 'EIMSK'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(133): error: Invalid redefinition of 'EIFR'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(134): error: Invalid redefinition of 'PCIFR'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(135): error: Invalid redefinition of 'TIFR2'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(136): error: Invalid redefinition of 'TIFR1'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(137): error: Invalid redefinition of 'TIFR0'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(138): error: Invalid redefinition of 'PORTD'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(139): error: Invalid redefinition of 'DDRD'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(140): error: Invalid redefinition of 'PIND'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(141): error: Invalid redefinition of 'PORTC'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(142): error: Invalid redefinition of 'DDRC'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(143): error: Invalid redefinition of 'PINC'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(144): error: Invalid redefinition of 'PORTB'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(145): error: Invalid redefinition of 'DDRB'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(146): error: Invalid redefinition of 'PINB'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(163): error: Invalid redefinition of 'MPCM0'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(164): error: Invalid redefinition of 'U2X0'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(165): error: Invalid redefinition of 'UPE0'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(166): error: Invalid redefinition of 'DOR0'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(167): error: Invalid redefinition of 'FE0'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(168): error: Invalid redefinition of 'UDRE0'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(169): error: Invalid redefinition of 'TXC0'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(170): error: Invalid redefinition of 'RXC0'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(173): error: Invalid redefinition of 'TXB80'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(174): error: Invalid redefinition of 'RXB80'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(175): error: Invalid redefinition of 'UCSZ02'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(176): error: Invalid redefinition of 'TXEN0'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(177): error: Invalid redefinition of 'RXEN0'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(178): error: Invalid redefinition of 'UDRIE0'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(179): error: Invalid redefinition of 'TXCIE0'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(180): error: Invalid redefinition of 'RXCIE0'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(183): error: Invalid redefinition of 'UCPOL0'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(184): error: Invalid redefinition of 'UCSZ00'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(186): error: Invalid redefinition of 'UCSZ01'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(188): error: Invalid redefinition of 'USBS0'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(189): error: Invalid redefinition of 'UPM00'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(190): error: Invalid redefinition of 'UPM01'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(191): error: Invalid redefinition of 'UMSEL00'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(193): error: Invalid redefinition of 'UMSEL01'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(215): error: Invalid redefinition of 'TWAM0'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(216): error: Invalid redefinition of 'TWAMR0'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(217): error: Invalid redefinition of 'TWAM1'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(218): error: Invalid redefinition of 'TWAMR1'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(219): error: Invalid redefinition of 'TWAM2'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(221): error: Invalid redefinition of 'TWAM3'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(223): error: Invalid redefinition of 'TWAM4'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(225): error: Invalid redefinition of 'TWAM5'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(227): error: Invalid redefinition of 'TWAM6'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(231): error: Invalid redefinition of 'TWBR0'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(232): error: Invalid redefinition of 'TWBR1'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(241): error: Invalid redefinition of 'TWIE'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(242): error: Invalid redefinition of 'TWEN'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(243): error: Invalid redefinition of 'TWWC'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(244): error: Invalid redefinition of 'TWSTO'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(245): error: Invalid redefinition of 'TWSTA'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(246): error: Invalid redefinition of 'TWEA'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(247): error: Invalid redefinition of 'TWINT'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(250): error: Invalid redefinition of 'TWPS0'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(251): error: Invalid redefinition of 'TWPS1'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(252): error: Invalid redefinition of 'TWS3'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(253): error: Invalid redefinition of 'TWS4'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(254): error: Invalid redefinition of 'TWS5'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(255): error: Invalid redefinition of 'TWS6'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(256): error: Invalid redefinition of 'TWS7'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(269): error: Invalid redefinition of 'TWGCE'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(270): error: Invalid redefinition of 'TWA0'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(271): error: Invalid redefinition of 'TWA1'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(272): error: Invalid redefinition of 'TWA2'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(273): error: Invalid redefinition of 'TWA3'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(274): error: Invalid redefinition of 'TWA4'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(275): error: Invalid redefinition of 'TWA5'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(276): error: Invalid redefinition of 'TWA6'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(281): error: Invalid redefinition of 'TOIE1'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(282): error: Invalid redefinition of 'OCIE1A'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(283): error: Invalid redefinition of 'OCIE1B'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(284): error: Invalid redefinition of 'ICIE1'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(287): error: Invalid redefinition of 'TOV1'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(288): error: Invalid redefinition of 'OCF1A'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(289): error: Invalid redefinition of 'OCF1B'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(290): error: Invalid redefinition of 'ICF1'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(293): error: Invalid redefinition of 'WGM10'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(294): error: Invalid redefinition of 'WGM11'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(295): error: Invalid redefinition of 'COM1B0'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(296): error: Invalid redefinition of 'COM1B1'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(297): error: Invalid redefinition of 'COM1A0'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(298): error: Invalid redefinition of 'COM1A1'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(301): error: Invalid redefinition of 'CS10'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(302): error: Invalid redefinition of 'CS11'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(303): error: Invalid redefinition of 'CS12'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(304): error: Invalid redefinition of 'WGM12'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(305): error: Invalid redefinition of 'WGM13'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(306): error: Invalid redefinition of 'ICES1'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(307): error: Invalid redefinition of 'ICNC1'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(310): error: Invalid redefinition of 'FOC1B'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(311): error: Invalid redefinition of 'FOC1A'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(314): error: Invalid redefinition of 'PSRSYNC'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(315): error: Invalid redefinition of 'TSM'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(320): error: Invalid redefinition of 'TOIE2'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(322): error: Invalid redefinition of 'OCIE2A'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(323): error: Invalid redefinition of 'OCIE2B'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(326): error: Invalid redefinition of 'TOV2'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(327): error: Invalid redefinition of 'OCF2A'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(328): error: Invalid redefinition of 'OCF2B'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(331): error: Invalid redefinition of 'WGM20'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(332): error: Invalid redefinition of 'WGM21'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(333): error: Invalid redefinition of 'COM2B0'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(334): error: Invalid redefinition of 'COM2B1'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(335): error: Invalid redefinition of 'COM2A0'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(336): error: Invalid redefinition of 'COM2A1'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(339): error: Invalid redefinition of 'CS20'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(340): error: Invalid redefinition of 'CS21'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(341): error: Invalid redefinition of 'CS22'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(342): error: Invalid redefinition of 'WGM22'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(343): error: Invalid redefinition of 'FOC2B'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(344): error: Invalid redefinition of 'FOC2A'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(377): error: Invalid redefinition of 'TCR2BUB'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(378): error: Invalid redefinition of 'TCR2AUB'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(379): error: Invalid redefinition of 'OCR2BUB'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(380): error: Invalid redefinition of 'OCR2AUB'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(381): error: Invalid redefinition of 'TCN2UB'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(382): error: Invalid redefinition of 'AS2'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(383): error: Invalid redefinition of 'EXCLK'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(386): error: Invalid redefinition of 'PSRASY'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(393): error: Invalid redefinition of 'MUX0'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(394): error: Invalid redefinition of 'MUX1'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(395): error: Invalid redefinition of 'MUX2'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(396): error: Invalid redefinition of 'MUX3'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(397): error: Invalid redefinition of 'ADLAR'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(398): error: Invalid redefinition of 'REFS0'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(399): error: Invalid redefinition of 'REFS1'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(402): error: Invalid redefinition of 'ADPS0'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(403): error: Invalid redefinition of 'ADPS1'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(404): error: Invalid redefinition of 'ADPS2'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(405): error: Invalid redefinition of 'ADIE'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(406): error: Invalid redefinition of 'ADIF'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(407): error: Invalid redefinition of 'ADATE'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(408): error: Invalid redefinition of 'ADSC'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(409): error: Invalid redefinition of 'ADEN'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(412): error: Invalid redefinition of 'ADTS0'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(413): error: Invalid redefinition of 'ADTS1'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(414): error: Invalid redefinition of 'ADTS2'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(415): error: Invalid redefinition of 'ACME'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(418): error: Invalid redefinition of 'ADCH0'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(419): error: Invalid redefinition of 'ADCH1'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(420): error: Invalid redefinition of 'ADCH2'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(421): error: Invalid redefinition of 'ADCH3'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(422): error: Invalid redefinition of 'ADCH4'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(423): error: Invalid redefinition of 'ADCH5'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(424): error: Invalid redefinition of 'ADCH6'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(425): error: Invalid redefinition of 'ADCH7'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(428): error: Invalid redefinition of 'ADCL0'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(429): error: Invalid redefinition of 'ADCL1'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(430): error: Invalid redefinition of 'ADCL2'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(431): error: Invalid redefinition of 'ADCL3'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(432): error: Invalid redefinition of 'ADCL4'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(433): error: Invalid redefinition of 'ADCL5'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(434): error: Invalid redefinition of 'ADCL6'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(435): error: Invalid redefinition of 'ADCL7'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(438): error: Invalid redefinition of 'ADC0D'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(439): error: Invalid redefinition of 'ADC1D'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(440): error: Invalid redefinition of 'ADC2D'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(441): error: Invalid redefinition of 'ADC3D'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(442): error: Invalid redefinition of 'ADC4D'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(443): error: Invalid redefinition of 'ADC5D'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(448): error: Invalid redefinition of 'ACIS0'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(449): error: Invalid redefinition of 'ACIS1'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(450): error: Invalid redefinition of 'ACIC'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(451): error: Invalid redefinition of 'ACIE'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(452): error: Invalid redefinition of 'ACI'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(453): error: Invalid redefinition of 'ACO'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(454): error: Invalid redefinition of 'ACBG'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(455): error: Invalid redefinition of 'ACD'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(458): error: Invalid redefinition of 'AIN0D'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(459): error: Invalid redefinition of 'AIN1D'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(464): error: Invalid redefinition of 'PORTB0'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(466): error: Invalid redefinition of 'PORTB1'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(468): error: Invalid redefinition of 'PORTB2'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(470): error: Invalid redefinition of 'PORTB3'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(472): error: Invalid redefinition of 'PORTB4'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(474): error: Invalid redefinition of 'PORTB5'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(476): error: Invalid redefinition of 'PORTB6'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(478): error: Invalid redefinition of 'PORTB7'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(492): error: Invalid redefinition of 'PINB0'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(493): error: Invalid redefinition of 'PINB1'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(494): error: Invalid redefinition of 'PINB2'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(495): error: Invalid redefinition of 'PINB3'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(496): error: Invalid redefinition of 'PINB4'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(497): error: Invalid redefinition of 'PINB5'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(498): error: Invalid redefinition of 'PINB6'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(499): error: Invalid redefinition of 'PINB7'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(504): error: Invalid redefinition of 'PORTC0'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(506): error: Invalid redefinition of 'PORTC1'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(508): error: Invalid redefinition of 'PORTC2'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(510): error: Invalid redefinition of 'PORTC3'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(512): error: Invalid redefinition of 'PORTC4'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(514): error: Invalid redefinition of 'PORTC5'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(516): error: Invalid redefinition of 'PORTC6'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(529): error: Invalid redefinition of 'PINC0'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(530): error: Invalid redefinition of 'PINC1'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(531): error: Invalid redefinition of 'PINC2'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(532): error: Invalid redefinition of 'PINC3'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(533): error: Invalid redefinition of 'PINC4'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(534): error: Invalid redefinition of 'PINC5'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(535): error: Invalid redefinition of 'PINC6'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(540): error: Invalid redefinition of 'PORTD0'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(542): error: Invalid redefinition of 'PORTD1'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(544): error: Invalid redefinition of 'PORTD2'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(546): error: Invalid redefinition of 'PORTD3'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(548): error: Invalid redefinition of 'PORTD4'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(550): error: Invalid redefinition of 'PORTD5'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(552): error: Invalid redefinition of 'PORTD6'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(554): error: Invalid redefinition of 'PORTD7'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(568): error: Invalid redefinition of 'PIND0'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(569): error: Invalid redefinition of 'PIND1'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(570): error: Invalid redefinition of 'PIND2'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(571): error: Invalid redefinition of 'PIND3'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(572): error: Invalid redefinition of 'PIND4'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(573): error: Invalid redefinition of 'PIND5'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(574): error: Invalid redefinition of 'PIND6'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(575): error: Invalid redefinition of 'PIND7'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(580): error: Invalid redefinition of 'TOIE0'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(581): error: Invalid redefinition of 'OCIE0A'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(582): error: Invalid redefinition of 'OCIE0B'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(585): error: Invalid redefinition of 'TOV0'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(586): error: Invalid redefinition of 'OCF0A'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(587): error: Invalid redefinition of 'OCF0B'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(590): error: Invalid redefinition of 'WGM00'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(591): error: Invalid redefinition of 'WGM01'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(592): error: Invalid redefinition of 'COM0B0'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(593): error: Invalid redefinition of 'COM0B1'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(594): error: Invalid redefinition of 'COM0A0'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(595): error: Invalid redefinition of 'COM0A1'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(598): error: Invalid redefinition of 'CS00'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(599): error: Invalid redefinition of 'CS01'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(600): error: Invalid redefinition of 'CS02'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(601): error: Invalid redefinition of 'WGM02'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(602): error: Invalid redefinition of 'FOC0B'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(603): error: Invalid redefinition of 'FOC0A'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(643): error: Invalid redefinition of 'ISC00'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(644): error: Invalid redefinition of 'ISC01'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(645): error: Invalid redefinition of 'ISC10'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(646): error: Invalid redefinition of 'ISC11'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(649): error: Invalid redefinition of 'INT0'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(650): error: Invalid redefinition of 'INT1'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(653): error: Invalid redefinition of 'INTF0'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(654): error: Invalid redefinition of 'INTF1'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(657): error: Invalid redefinition of 'PCIE0'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(658): error: Invalid redefinition of 'PCIE1'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(659): error: Invalid redefinition of 'PCIE2'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(662): error: Invalid redefinition of 'PCINT16'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(663): error: Invalid redefinition of 'PCINT17'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(664): error: Invalid redefinition of 'PCINT18'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(665): error: Invalid redefinition of 'PCINT19'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(666): error: Invalid redefinition of 'PCINT20'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(667): error: Invalid redefinition of 'PCINT21'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(668): error: Invalid redefinition of 'PCINT22'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(669): error: Invalid redefinition of 'PCINT23'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(672): error: Invalid redefinition of 'PCINT8'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(673): error: Invalid redefinition of 'PCINT9'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(674): error: Invalid redefinition of 'PCINT10'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(675): error: Invalid redefinition of 'PCINT11'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(676): error: Invalid redefinition of 'PCINT12'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(677): error: Invalid redefinition of 'PCINT13'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(678): error: Invalid redefinition of 'PCINT14'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(681): error: Invalid redefinition of 'PCINT0'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(682): error: Invalid redefinition of 'PCINT1'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(683): error: Invalid redefinition of 'PCINT2'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(684): error: Invalid redefinition of 'PCINT3'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(685): error: Invalid redefinition of 'PCINT4'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(686): error: Invalid redefinition of 'PCINT5'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(687): error: Invalid redefinition of 'PCINT6'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(688): error: Invalid redefinition of 'PCINT7'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(691): error: Invalid redefinition of 'PCIF0'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(692): error: Invalid redefinition of 'PCIF1'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(693): error: Invalid redefinition of 'PCIF2'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(698): error: Invalid redefinition of 'SPDR0'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(699): error: Invalid redefinition of 'SPDR1'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(708): error: Invalid redefinition of 'SPI2X'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(709): error: Invalid redefinition of 'WCOL'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(710): error: Invalid redefinition of 'SPIF'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(713): error: Invalid redefinition of 'SPR0'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(714): error: Invalid redefinition of 'SPR1'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(715): error: Invalid redefinition of 'CPHA'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(716): error: Invalid redefinition of 'CPOL'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(717): error: Invalid redefinition of 'MSTR'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(718): error: Invalid redefinition of 'DORD'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(719): error: Invalid redefinition of 'SPE'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(720): error: Invalid redefinition of 'SPIE'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(725): error: Invalid redefinition of 'WDP0'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(726): error: Invalid redefinition of 'WDP1'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(727): error: Invalid redefinition of 'WDP2'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(728): error: Invalid redefinition of 'WDE'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(729): error: Invalid redefinition of 'WDCE'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(730): error: Invalid redefinition of 'WDP3'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(731): error: Invalid redefinition of 'WDIE'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(732): error: Invalid redefinition of 'WDIF'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(751): error: Invalid redefinition of 'EEDR0'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(752): error: Invalid redefinition of 'EEDR1'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(753): error: Invalid redefinition of 'EEDR2'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(754): error: Invalid redefinition of 'EEDR3'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(755): error: Invalid redefinition of 'EEDR4'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(756): error: Invalid redefinition of 'EEDR5'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(757): error: Invalid redefinition of 'EEDR6'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(758): error: Invalid redefinition of 'EEDR7'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(761): error: Invalid redefinition of 'EERE'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(762): error: Invalid redefinition of 'EEPE'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(763): error: Invalid redefinition of 'EEMPE'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(764): error: Invalid redefinition of 'EERIE'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(765): error: Invalid redefinition of 'EEPM0'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(766): error: Invalid redefinition of 'EEPM1'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(771): error: Invalid redefinition of 'SREG_C'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(772): error: Invalid redefinition of 'SREG_Z'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(773): error: Invalid redefinition of 'SREG_N'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(774): error: Invalid redefinition of 'SREG_V'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(775): error: Invalid redefinition of 'SREG_S'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(776): error: Invalid redefinition of 'SREG_H'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(777): error: Invalid redefinition of 'SREG_T'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(778): error: Invalid redefinition of 'SREG_I'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(791): error: Invalid redefinition of 'CLKPS0'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(792): error: Invalid redefinition of 'CLKPS1'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(793): error: Invalid redefinition of 'CLKPS2'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(794): error: Invalid redefinition of 'CLKPS3'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(795): error: Invalid redefinition of 'CLKPCE'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(799): error: Invalid redefinition of 'SPMEN'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(800): error: Invalid redefinition of 'PGERS'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(801): error: Invalid redefinition of 'PGWRT'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(802): error: Invalid redefinition of 'BLBSET'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(803): error: Invalid redefinition of 'RWWSRE'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(804): error: Invalid redefinition of 'SIGRD'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(805): error: Invalid redefinition of 'RWWSB'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(806): error: Invalid redefinition of 'SPMIE'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(809): error: Invalid redefinition of 'IVCE'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(810): error: Invalid redefinition of 'IVSEL'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(811): error: Invalid redefinition of 'PUD'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(814): error: Invalid redefinition of 'PORF'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(815): error: Invalid redefinition of 'EXTRF'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(817): error: Invalid redefinition of 'BORF'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(818): error: Invalid redefinition of 'WDRF'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(821): error: Invalid redefinition of 'SE'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(822): error: Invalid redefinition of 'SM0'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(823): error: Invalid redefinition of 'SM1'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(824): error: Invalid redefinition of 'SM2'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(827): error: Invalid redefinition of 'GPIOR20'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(828): error: Invalid redefinition of 'GPIOR21'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(829): error: Invalid redefinition of 'GPIOR22'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(830): error: Invalid redefinition of 'GPIOR23'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(831): error: Invalid redefinition of 'GPIOR24'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(832): error: Invalid redefinition of 'GPIOR25'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(833): error: Invalid redefinition of 'GPIOR26'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(834): error: Invalid redefinition of 'GPIOR27'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(837): error: Invalid redefinition of 'GPIOR10'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(838): error: Invalid redefinition of 'GPIOR11'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(839): error: Invalid redefinition of 'GPIOR12'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(840): error: Invalid redefinition of 'GPIOR13'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(841): error: Invalid redefinition of 'GPIOR14'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(842): error: Invalid redefinition of 'GPIOR15'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(843): error: Invalid redefinition of 'GPIOR16'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(844): error: Invalid redefinition of 'GPIOR17'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(847): error: Invalid redefinition of 'GPIOR00'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(848): error: Invalid redefinition of 'GPIOR01'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(849): error: Invalid redefinition of 'GPIOR02'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(850): error: Invalid redefinition of 'GPIOR03'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(851): error: Invalid redefinition of 'GPIOR04'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(852): error: Invalid redefinition of 'GPIOR05'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(853): error: Invalid redefinition of 'GPIOR06'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(854): error: Invalid redefinition of 'GPIOR07'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(857): error: Invalid redefinition of 'PRADC'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(858): error: Invalid redefinition of 'PRUSART0'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(860): error: Invalid redefinition of 'PRTIM1'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(861): error: Invalid redefinition of 'PRTIM0'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(862): error: Invalid redefinition of 'PRTIM2'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(868): error: Invalid redefinition of 'LB1'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(869): error: Invalid redefinition of 'LB2'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(870): error: Invalid redefinition of 'BLB01'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(871): error: Invalid redefinition of 'BLB02'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(872): error: Invalid redefinition of 'BLB11'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(873): error: Invalid redefinition of 'BLB12'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(884): error: Invalid redefinition of 'CKOUT'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(885): error: Invalid redefinition of 'CKDIV8'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(888): error: Invalid redefinition of 'BOOTRST'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(889): error: Invalid redefinition of 'BOOTSZ0'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(890): error: Invalid redefinition of 'BOOTSZ1'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(891): error: Invalid redefinition of 'EESAVE'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(892): error: Invalid redefinition of 'WDTON'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(893): error: Invalid redefinition of 'SPIEN'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(894): error: Invalid redefinition of 'DWEN'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(895): error: Invalid redefinition of 'RSTDISBL'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(898): error: Invalid redefinition of 'BODLEVEL0'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(899): error: Invalid redefinition of 'BODLEVEL1'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(900): error: Invalid redefinition of 'BODLEVEL2'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(905): warning: .def: 'XH' redefinition (r27->r27)
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(905): warning: Register r27 already defined by the .DEF directive
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(906): warning: .def: 'XL' redefinition (r26->r26)
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(906): warning: Register r26 already defined by the .DEF directive
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(907): warning: .def: 'YH' redefinition (r29->r29)
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(907): warning: Register r29 already defined by the .DEF directive
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(908): warning: .def: 'YL' redefinition (r28->r28)
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(908): warning: Register r28 already defined by the .DEF directive
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(909): warning: .def: 'ZH' redefinition (r31->r31)
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(909): warning: Register r31 already defined by the .DEF directive
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(910): warning: .def: 'ZL' redefinition (r30->r30)
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(910): warning: Register r30 already defined by the .DEF directive
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(915): error: Invalid redefinition of 'FLASHEND'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(916): error: Invalid redefinition of 'IOEND'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(917): error: Invalid redefinition of 'SRAM_START'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(918): error: Invalid redefinition of 'SRAM_SIZE'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(919): error: Invalid redefinition of 'RAMEND'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(920): error: Invalid redefinition of 'XRAMEND'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(921): error: Invalid redefinition of 'E2END'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(922): error: Invalid redefinition of 'EEPROMEND'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(923): error: Invalid redefinition of 'EEADRBITS'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(936): error: Invalid redefinition of 'PAGESIZE'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(937): error: Invalid redefinition of 'FIRSTBOOTSTART'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(938): error: Invalid redefinition of 'SECONDBOOTSTART'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(939): error: Invalid redefinition of 'THIRDBOOTSTART'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(940): error: Invalid redefinition of 'FOURTHBOOTSTART'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(941): error: Invalid redefinition of 'SMALLBOOTSTART'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(942): error: Invalid redefinition of 'LARGEBOOTSTART'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(947): error: Invalid redefinition of 'INT0addr'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(948): error: Invalid redefinition of 'INT1addr'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(952): error: Invalid redefinition of 'WDTaddr'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
+C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC(973): error: Invalid redefinition of 'INT_VECTORS_SIZE'
+C:\Users\Nick\Desktop\Harrin2_DA_2B\Harrin2_DA_2B\main.asm(7): 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\M328DEF.INC' included form here
